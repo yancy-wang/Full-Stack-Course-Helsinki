@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:3005/persons'
+const baseUrl = 'https://phonebook-backend-yyw.fly.dev/'
 
 const getAll = () =>{
     const request = axios.get(baseUrl);
